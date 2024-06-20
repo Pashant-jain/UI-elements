@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'Centauri';
+    src: url('centauri-webfont.woff2') format('woff2'),
+         url('centauri-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('BebasNeueRegular.eot');
+    src: url('BebasNeueRegular.eot?#iefix') format('embedded-opentype'),
+        url('BebasNeueRegular.woff2') format('woff2'),
+        url('BebasNeueRegular.woff') format('woff'),
+        url('BebasNeueRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Dr Sugiyama';
+    src: url('DrSugiyama-Regular.eot');
+    src: url('DrSugiyama-Regular.eot?#iefix') format('embedded-opentype'),
+        url('DrSugiyama-Regular.woff2') format('woff2'),
+        url('DrSugiyama-Regular.woff') format('woff'),
+        url('DrSugiyama-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Earthorbiterbold";
+    src: url('EarthOrbiter.eot');
+    src: url('EarthOrbiter.eot?#iefix') format('embedded-opentype'),
+        url('EarthOrbiter.woff2') format('woff2'),
+        url('EarthOrbiter.woff') format('woff'),
+        url('EarthOrbiter.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'bankgothicregular';
+    src: url('bankgothic_regular.woff2') format('woff2'),
+         url('bankgothic_regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

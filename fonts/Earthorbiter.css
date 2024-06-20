@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Earth Orbiter';
+    src: url('EarthOrbiter.eot');
+    src: url('EarthOrbiter.eot?#iefix') format('embedded-opentype'),
+        url('EarthOrbiter.woff2') format('woff2'),
+        url('EarthOrbiter.woff') format('woff'),
+        url('EarthOrbiter.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+

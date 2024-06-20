@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="25.5" height="25.5" viewBox="0 0 25.5 25.5">
+  <g id="_003-login" data-name="003-login" transform="translate(0 0)">
+    <g id="Group_1015" data-name="Group 1015" transform="translate(7.761 0)">
+      <g id="Group_1014" data-name="Group 1014">
+        <path id="Path_5086" data-name="Path 5086" d="M164.3,0H152.1a2.776,2.776,0,0,0-2.772,2.772V9.424a.554.554,0,0,0,1.109,0V2.772A1.665,1.665,0,0,1,152.1,1.109h12.2a1.665,1.665,0,0,1,1.663,1.663V22.729a1.665,1.665,0,0,1-1.663,1.663H152.1a1.665,1.665,0,0,1-1.663-1.663V16.076a.554.554,0,1,0-1.109,0v6.652A2.776,2.776,0,0,0,152.1,25.5h12.2a2.776,2.776,0,0,0,2.772-2.772V2.772A2.776,2.776,0,0,0,164.3,0Z" transform="translate(-149.333)" fill="#fff"/>
+      </g>
+    </g>
+    <g id="Group_1017" data-name="Group 1017" transform="translate(0 12.196)">
+      <g id="Group_1016" data-name="Group 1016">
+        <path id="Path_5087" data-name="Path 5087" d="M18.294,234.667H.554a.554.554,0,1,0,0,1.109H18.294a.554.554,0,1,0,0-1.109Z" transform="translate(0 -234.667)" fill="#fff"/>
+      </g>
+    </g>
+    <g id="Group_1019" data-name="Group 1019" transform="translate(14.413 8.871)">
+      <g id="Group_1018" data-name="Group 1018">
+        <path id="Path_5088" data-name="Path 5088" d="M281.6,174.192l-3.326-3.326a.554.554,0,0,0-.784.784l2.934,2.934-2.934,2.934a.555.555,0,0,0,.784.785l3.326-3.326A.555.555,0,0,0,281.6,174.192Z" transform="translate(-277.328 -170.704)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,582 @@
+<html
+  xmlns="http://www.w3.org/1999/xhtml"
+  xmlns:o="urn:schemas-microsoft-com:office:office"
+  xmlns:v="urn:schemas-microsoft-com:vml"
+  lang="en"
+>
+  <head>
+    <title>XANA</title>
+    <meta property="og:title" content="Email template" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <style type="text/css">
+
+        /* Global CSS */
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        a{
+            display: inline-block;
+            text-decoration: none;
+        }
+        img{
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: cover;
+            display: inline-block;
+        }
+        table{
+            border:none;
+            border-spacing: 0;
+        }
+        h1{
+            font-size: 30px;
+            line-height: 1.1;
+            color: #fff;
+        }
+        h3 {
+            font-size: 30px;
+            color: #fff;
+            font-weight: 300;
+        }
+        h6{
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 1;
+            color: #fff;
+        }
+        h4 {
+            color: #3F4674;
+            font-weight: 700;
+            line-height: 14px;
+            font-size: 12px;
+            margin-bottom: 14px;
+        }
+        h5{
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 1;
+            color: #000;
+        }
+
+        p{
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 1.3;
+            color: #000;
+        }
+        .blue-text{
+            color: #008FFF;
+        }
+        .container{
+            width: 540px;
+            margin: auto;
+        }
+        .box-layout{
+            background: #fff;
+            padding-bottom: 20px;
+        }
+        .box-layout .box-view {
+            border: 0.5px solid #3f467461;
+            padding: 15px;
+            width: 90%; 
+            text-align: left;
+            margin-bottom: 20px;
+        }
+        .box-layout .box-icon {
+            text-align: center;
+            width: 50px;
+            float: right;
+            border: 0.5px solid #3f467461;
+            border-right: none;
+            border-bottom: none;
+            padding: 10px;
+            margin-top: -35px;
+            margin-right: -15px;
+        }
+        .box-layout .box-icon.message{
+            margin-top: -30px;
+        }
+        .box-layout ul {
+            padding: 10px 20px;
+        }
+        .box-layout li {
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 21px;
+            color: #000000;
+        }
+
+        /* Individual Classes */
+        #email{
+            width: 100%;
+            max-width: 600px;
+            margin: auto;
+        }
+        .logo-section{
+            width: 100%;
+            text-align: center;
+            background: #fff;
+            padding: 2px 0;
+        }
+        .logo-section .logo-icon{
+            margin-right: 5px;
+        }
+
+        .banner-section{
+            position: relative;
+        }
+        .banner-section .banner-text {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            width: 480px;
+            height: 100%;
+            margin: auto;
+            padding-top: 103px;
+        }
+        .banner-section .banner-text td{
+            width: 600px;
+        }
+        .banner-text h6{
+            margin-bottom: 11px;
+        }
+        .banner-text h1{
+            color: #FF008F;
+            margin-bottom: 20px;
+        }
+        .overview-section{
+            padding: 0px 0;
+            background: #fff;
+        }
+        .overview-section a {
+            font-weight: 600;
+            color: blue;
+        }
+        .overview-section .overview-text{
+           text-align: left;
+               margin: 0 20px 20px;
+        }
+        .overview-section hr {
+            margin: 20px 0;
+        }
+        .overview-section p{
+             font-weight: 400;
+            font-size: 12px;
+            line-height: 15px;
+            color: #3F4674;
+            font-family: 'Arial';
+        }
+        .overview-box p{
+            margin-bottom: 14px;
+        }
+        .revenue-section {
+            padding: 0px 0;
+            background: #fff;
+        }
+        .revenue-text {
+            text-align: left;
+        }
+        .revenue-text h2{
+            font-size: 22px;
+            color: #FF008F;
+            margin-bottom: 20px;
+        }
+        .revenue-text p{
+            margin-bottom: 14px;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 15px;
+            color: #3F4674;
+            font-family: 'Arial';
+        }
+        .revenue-text a{
+            display: inline-block;
+            font-size: 12px;
+            margin-bottom: 14px;
+            line-height: 1.3;
+            text-decoration: underline;
+        }
+        .revenue-text a.mb-0{
+            margin-bottom: 0;
+        }
+
+        .thank-you-section{
+            position: relative;
+        }
+
+        .thank-you-text{
+            position: absolute;
+            top:50%;
+            left:50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .footer-section{
+            background: #fff;
+            padding: 30px 0 20px;
+        }
+        .footer-section p{
+            line-height: 1.5;
+        }
+        .footer-inner{
+            display: flex;
+            gap: 50px;
+            align-items: flex-start;
+            justify-content: space-between;
+        }
+        .footer-sub-sec {
+            width: 51%;
+        }
+        .footer-sub-sec p,.footer-sub-sec img,.footer-sub-sec .social-link{
+            text-align: left;
+        }
+        .footer-sub-sec img{
+            margin-right: auto;
+            display: block;
+        }
+        .footer-lg-img{
+            margin:5px 0 10px;
+            width: 50px;
+            
+        }
+        .footer-sub-sec .social-link{
+            display: flex;
+            margin-top: 15px;
+            align-items: center;
+            gap: 15px;
+        }
+        .footer-sub-sec .social-link a{
+            margin-right: 10px;
+            }
+        .team-sub-sec{
+            width: 32%;
+        }
+        .team-sub-sec h5,.sitemap-sub-sec h5{
+            margin-bottom: 10px;
+            text-align: left;
+        }
+        .inline-element {
+            display: flex;
+            margin-bottom: 10px;
+            align-items: center;
+        }
+        .inline-element img{
+            width: 13px;
+            height: 13px;
+            margin-right: 7px;
+        }
+        .sitemap-sub-sec{
+            width: 17%;
+        }
+        .sitemap-sub-sec a{
+            display: block;
+            text-align: left;
+            font-size: 12px;
+            font-weight: 400;
+            color: #000;
+            line-height: 1;
+            margin-bottom: 12px;
+        }
+        .sitemap-sub-sec a:last-child{
+            margin-bottom: 0;
+        }
+        .overview-text.mb p{
+           margin-bottom: 14px;
+           }
+        
+        /* Media Query */
+        @media (max-width:600px){
+            h1{
+                font-size: 25px;
+            }
+            h3 {
+                font-size: 25px;
+            }
+            h6{
+                font-size: 14px;
+            }
+            h5{
+                font-size: 12px;
+            }
+            p{
+                font-size: 11px;
+            }
+            .container{
+                width: 100%;
+            }
+            #email{
+                width: 100%;
+                max-width: 600px;
+            }
+            .container{
+                width: 370px;
+                margin: auto;
+            }
+            .banner-section .banner-text{
+                width: 360px;
+                padding-top: 10vw;
+            }
+
+            .logo-section {
+                padding: 15px 0;
+            }
+            .logo-section a .x-logo{
+                width: 40px;
+                }
+            .logo-section .logo-icon {
+                width: 22px;
+            }
+            .logo-section .logo-name {
+                width: 70px;
+            }
+            .banner-text h6 {
+                margin-bottom: 7px;
+            }
+            .banner-text h1{
+                margin-bottom: 15px;
+            }
+            .revenue-text h2{
+                font-size: 17px;
+            }
+            .revenue-text p {
+                margin-bottom: 10px;
+            }
+            .revenue-text a{
+                font-size: 11px;
+                margin-bottom: 10px;
+            }
+            .footer-inner {
+                flex-direction: column;
+                align-items: center;
+                gap:15px;
+            }
+            .footer-sub-sec,.team-sub-sec,.sitemap-sub-sec {
+                width: 100%;
+            }
+            .footer-sub-sec img {
+                margin: auto;
+                margin-bottom: 10px;
+            }
+            .footer-sub-sec .social-link {
+                display: flex;
+                margin-top: 10px;
+                justify-content: center;
+                gap: 10px;
+            }
+            .team-sub-sec h5, .sitemap-sub-sec h5 {
+                margin-bottom: 8px;
+                text-align: center;
+            }
+            .inline-element {
+                margin-bottom: 8px;
+                justify-content: center;
+            }
+            .footer-sub-sec p, .footer-sub-sec img, .footer-sub-sec .social-link {
+                text-align: center;
+            }
+            .sitemap-sub-sec a {
+                text-align: center;
+                margin-bottom: 7px;
+            }
+        }
+
+        @media (max-width:400px){
+
+            h1{
+                font-size: 20px;
+            }
+            h3 {
+                font-size: 18px;
+            }
+            h6{
+                font-size: 11px;
+            }
+            h5{
+                font-size: 11px;
+            }
+            p{
+                font-size: 10px;
+            }
+            .container {
+                width: 300px;
+            }
+            .banner-section .banner-text {
+                width: 300px;
+            }
+            .logo-section .logo-icon {
+                width: 18px;
+            }
+            .logo-section .logo-name {
+                width: 55px;
+            }
+            .logo-section {
+                padding: 10px 0;
+            }
+            .banner-text h6 {
+                margin-bottom: 5px;
+            }
+            .banner-text h1 {
+                margin-bottom: 10px;
+            }
+            .revenue-text h2 {
+                font-size: 15px;
+                margin-bottom: 10px;
+            }
+            .revenue-text p {
+                margin-bottom: 7px;
+            }
+            .revenue-text a {
+                font-size: 10px;
+                margin-bottom: 7px;
+            }
+            .sitemap-sub-sec a{
+                font-size: 10px;
+            }
+        }
+
+    </style>
+  </head>
+
+  <body
+    bgcolor="#F5F8FA"
+    style="
+      width: 100%;
+      margin: auto 0;
+      padding: 0;
+      font-family: Lato, sans-serif;
+      font-size: 18px;
+      color: #33475b;
+      word-break: break-word;
+    "
+  >
+    <div id="email">
+      <!-- Logo Section Start -->
+      <table align="center" role="presentation" class="logo-section">
+        <tr>
+          <td>
+            <a class="subtle-link" href="https://xana.net/" target="_blank"
+              >
+              <!--<img src="https://ik.imagekit.io/xanalia/email-template/Logo.svg" alt="logo" class="logo-icon" />-->
+              <img
+                src="http://cdn.mcauto-images-production.sendgrid.net/55e02c2860540455/90e02bd9-9a59-4f4a-bc04-c2596b28cd08/60x60.png"
+                alt=""
+                class="logo-name x-logo"
+            /></a>
+          </td>
+        </tr>
+      </table>
+      <!-- Logo Section End -->
+
+      <!-- Revenue Section Start -->
+      <table role="presentation" width="100%" class="revenue-section">
+        <tr>
+            <td align="center">
+                <div class="container revenue-text">
+                    <p>Hi, <strong>Piyush here</strong></p>
+                    <p>I'm following up on my last email about XANA Metaverse and our Business Solutions. I understand you're super busy; the last email might've skipped you.</p>
+                    <p>I'd appreciate it if you could make some time to check that email.</p>
+                   
+                   
+                </div>
+            </td>
+        </tr>
+      </table>
+      <!-- Revenue Section End -->
+
+ 
+
+<!-- Revenue Section Start -->
+      <table role="presentation" width="100%" class="overview-section">
+        <tr>
+            <td align="center">
+                <div class="container overview-text mb">
+                    <p>Here's the pitch deck I shared in that email: <a href="https://docs.google.com/presentation/d/1WHyT1XG6Ex9gTIFT1nxlikCJaZqr9h_Xo3cTtJ7AiFM/edit?pli=1#slide=id.gf480783d97_1_1." target="_blank">our Pitch Deck</a>.</p>
+                    <div class="overview-box">
+                        <p>If it's of interest, we can schedule a virtual meeting to explore potential opportunities.</p>
+                        <p>Again, thank you for your time. I look forward to hearing back soon.</p>
+                        <p>Piyush Singh <br>
+                            Business Developer Manager (India Region)<br>
+                            Website: <a href="https://xana.net" target="_blank">https://xana.net</a></p>
+                    </div>
+                </div>
+            </td>
+        </tr>
+      </table>
+      <!-- Revenue Section End -->
+
+     <!-- Footer Section Start -->
+      <table role="presentation" width="100%" class="footer-section">
+        <tr class="bg-img">
+          <td align="center">
+            <div class="container footer-inner">
+                <div class="footer-sub-sec">
+                    <!--<img src="https://ik.imagekit.io/xanalia/email-template/Logo.svg" alt="">-->
+                    <img src="http://cdn.mcauto-images-production.sendgrid.net/55e02c2860540455/6f6d3c68-cfc0-4a0c-8241-dc7bb1d17348/512x512.png" alt="" class="footer-lg-img">
+                    <p>XANA is AI driven web 3.0 infrastructure custom-build for the Metaverse. Broadly Adopted by major instructions, local governments, and global brands.</p>
+                    <div class="social-link">
+                        <a href="https://twitter.com/XANAMetaverse" target="_blank"><img src="http://cdn.mcauto-images-production.sendgrid.net/55e02c2860540455/994fe807-89d6-4c17-99a6-1401878054d7/14x12.png" alt=""></a>
+                        <a href="http://t.me/xanaofficial" target="_blank"><img src="http://cdn.mcauto-images-production.sendgrid.net/55e02c2860540455/4820994a-84cb-4694-93ec-2191e8127a3d/13x12.png" alt=""></a>
+                        <a href="https://discord.com/invite/XANA" target="_blank"><img src="http://cdn.mcauto-images-production.sendgrid.net/55e02c2860540455/a3a7db2a-c126-42e0-a685-aecf53383d21/16x12.png" alt=""></a>
+                        <a href="https://xanametaverse.medium.com/" target="_blank"><img src="http://cdn.mcauto-images-production.sendgrid.net/55e02c2860540455/6bf38a03-f323-4473-b66b-a18721c97327/12x12.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="team-sub-sec">
+                    <h5>Team</h5>
+                    <a target="_blank" href="https://noborderz.com/" class="inline-element">
+                        <img src="http://cdn.mcauto-images-production.sendgrid.net/55e02c2860540455/64be26c0-125e-4aaa-b266-26a1d442518f/12x15.png" alt="">
+                        <p>NOBORDERZ Group</p>
+                    </a>
+                     <a target="_blank" href="https://xanalia.com/" class="inline-element">
+                        <img src="http://cdn.mcauto-images-production.sendgrid.net/55e02c2860540455/64be26c0-125e-4aaa-b266-26a1d442518f/12x15.png" alt="">
+                        <p>XANALIA Limited</p>
+                    </a>
+                    <a target="_blank" href="https://twitter.com/rio_noborderz" class="inline-element">
+                        <img src="http://cdn.mcauto-images-production.sendgrid.net/55e02c2860540455/994fe807-89d6-4c17-99a6-1401878054d7/14x12.png" alt="">
+                        <p>Twitter (CEO)</p>
+                    </a>
+                </div>
+                <div class="sitemap-sub-sec">
+                    <h5>Sitemap</h5>
+                    <a target="_blank" href="https://xana.net/">Top</a>
+                    <a target="_blank" href="https://xana.net/#feature">Feature</a>
+                    <a target="_blank" href="https://xana.net/#technology">Technology</a>
+                    <a target="_blank" href="https://xana.net/#Utility">Utility</a>
+                    <a target="_blank" href="https://xana.net/#roadmap">Roadmap</a>
+                    <a target="_blank" href="https://xana.net/#team">Team</a>
+                </div>
+            </div>
+          </td>
+        </tr>
+      </table>
+      <!-- Footer Section End -->
+
+    </div>
+    <div data-role="module-unsubscribe" class="module" role="module" data-type="unsubscribe" style="color:#444444; font-size:12px; line-height:20px; padding:16px 16px 16px 16px; text-align:Center;" data-muid="4e838cf3-9892-4a6d-94d6-170e474d21e5">
+        <div class="Unsubscribe--addressLine">
+          <p class="Unsubscribe--senderName"
+            style="font-size:12px;line-height:20px"
+          >
+            <!--{{Sender_Name}}-->
+          </p>
+          <p style="font-size:12px;line-height:20px">
+            <!--<span class="Unsubscribe--senderAddress">{{Sender_Address}}</span>, <span class="Unsubscribe--senderCity">{{Sender_City}}</span>, <span class="Unsubscribe--senderState">{{Sender_State}}</span> <span class="Unsubscribe--senderZip">{{Sender_Zip}}</span>-->
+          </p>
+        </div>
+        <p style="font-size:12px; line-height:20px;">
+          <!--<a class="Unsubscribe--unsubscribeLink" href="{{{unsubscribe}}}" target="_blank" style="font-family:sans-serif;text-decoration:none;">-->
+          <!--  Unsubscribe-->
+          <!--</a>-->
+          -
+          <!--<a href="{{{unsubscribe_preferences}}}" target="_blank" class="Unsubscribe--unsubscribePreferences" style="font-family:sans-serif;text-decoration:none;">-->
+          <!--  Unsubscribe Preferences-->
+          <!--</a>-->
+        </p>
+      </div>
+  </body>
+</html>
